@@ -37,7 +37,7 @@ for idx, row in df.iterrows():
     print 'error when encode row to big5'
   
   try:
-    split_result = field_description.split(u'`'.encode('utf8'))
+    split_result = field_description.split(u'`'.encode('big5'))
     for field in split_result:
       try:
         dataset_name = row['title'].encode('big5')
@@ -171,7 +171,6 @@ def createNetwork():
   for key, val_list in tag_dataset_dict.items():
     for val in val_list:
       dataset_dict[val].append('nan')
-
 
 dataset = [field_dataset_dict, tag_field_dict, tag_dataset_dict, tag_dict, dataset_dict, field_dict]
 f = codecs.open('./readme-flare-imports.json', 'w',encoding='utf8')
