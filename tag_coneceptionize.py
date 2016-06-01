@@ -69,6 +69,14 @@ def createTag(tag_name='geo', tag_defs=geo_def_list):
     fields = field_dataset_dict.keys()
     for field in fields:
       if tag in field:
+
+        '''
+        no doing 
+        if tag in fields
+          do somthing
+        because the tag may not match the field exactly 
+        '''
+
         print 'field_dataset match'
         for val in field_dataset_dict[field]:
           tag_dataset_dict[tag_name].append(val)
