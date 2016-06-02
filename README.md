@@ -1,6 +1,6 @@
 # DataTag
 
-簡單整理 [Data.Taipei] 的資料目錄，並讓使用者以「概念」的方式搜尋指定的資料集，（如搜尋「位置」關鍵詞可以找到包含經緯度、地址、區域、座標等具有位置概念的資料。）最後以圖像化的方式呈現欲查詢的概念在各資料集的關係。
+簡單整理 [Data.Taipei] (data.taipei)的資料目錄，並讓使用者以「概念」的方式搜尋指定的資料集，（如搜尋「位置」關鍵詞可以找到包含經緯度、地址、區域、座標等具有位置概念的資料。）最後以圖像化的方式呈現欲查詢的概念在各資料集的關係。
 
   - Type some Markdown on the left
   - See HTML in the right
@@ -23,13 +23,8 @@ Markdown is a lightweight markup language based on the formatting conventions th
 
 ### 檔案介紹
 * crawler.py - 抓取Data.Taipei的資料集目錄
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
+* dataset_getter.py - 搜尋Data.Taipei裡有出現指定tag的資料集名稱
+* tag_conceptionize.py - 產生(field->dataset),(tag->dataset),(tag->field)三種dict以及繪圖所需的檔案
 * [jQuery] - duh
 
 And of course Dillinger itself is open source with a [public repository][dill]
