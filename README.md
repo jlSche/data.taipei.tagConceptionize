@@ -6,6 +6,7 @@
 ### 檔案介紹
 * crawler.py - 抓取Data.Taipei的資料集目錄
 * dataset_getter.py - 搜尋Data.Taipei裡有出現指定tag的資料集名稱
+* tag_conceptionize.py - 產生(field->dataset),(tag->dataset),(tag->field)三種dict以及繪圖所需的檔案
 
 License
 ----
@@ -14,4 +15,5 @@ MIT
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
 
