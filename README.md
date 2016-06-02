@@ -8,6 +8,8 @@
 * dataset_getter.py - 搜尋Data.Taipei裡有出現指定tag的資料集名稱
 * tag_conceptionize.py - 產生(field->dataset),(tag->dataset),(tag->field)三種dict以及繪圖所需的檔案
 
+![alt tag](https://raw.githubusercontent.com/syhsu/DaTag/master/figure1.png)
+
 License
 ----
 
